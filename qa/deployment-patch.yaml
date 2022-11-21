@@ -9,4 +9,4 @@ spec:
       - name: demo
         env:
         - name: ENVIRONMENT
-          value: e2e
+          value: qa
