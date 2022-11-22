@@ -4,3 +4,6 @@ kind: Kustomization
 
 patchesStrategicMerge:
 - ./deployment-patch.yaml
+images:
+- name: mynamesandesh/argocd-demo
+  newTag: d7898d2e2bd7232519d261d3c1f7bcf57f36ec4b
