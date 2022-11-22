@@ -7,4 +7,4 @@ patchesStrategicMerge:
 images:
 - name: demo
   newName: mynamesandesh/argocd-demo
-  newTag: bce4354d4dc5e2eebdf286cb35b090cb78dbc1c9
+  newTag: 24262b2b86f53c1339f0d13028484c26a9eb46a3
