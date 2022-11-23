@@ -15,7 +15,5 @@ spec:
         app: demo
     spec:
       containers:
-      - image: mynamesandesh/argocd-demo:${env.GIT_COMMIT}
-        name: demo
         ports:
         - containerPort: 8080
