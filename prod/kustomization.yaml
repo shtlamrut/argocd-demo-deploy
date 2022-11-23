@@ -4,9 +4,6 @@ kind: Kustomization
 resources:
 - ../base
 
-commonLabels:
-  env: prod
-images:
-- name: demo
-  newName: mynamesandesh/argocd-demo
-  newTag: 42618e9f7edc1770b0f9cf21e14ba1e9eaadccb4
+patchesStrategicMerge:
+- ./deployment-patch.yaml        
+
