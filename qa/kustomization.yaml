@@ -4,8 +4,6 @@ kind: Kustomization
 resources:
 - ../base
 
-patchesStrategicMerge:
-- ./deployment-patch.yaml
 images:
 - name: mynamesandesh/argocd-demo
   newTag: ea4a178b7b619c54e5eb2ce05f49144c1ba11ea7
