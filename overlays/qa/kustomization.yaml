@@ -3,3 +3,9 @@ resources:
 
 commonLabels:
   env: qa
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: nginx
+  newName: mynamesandesh/argocd-demo
+  newTag: 3eb990453acd45e66764fd868e287a7839497c4b
