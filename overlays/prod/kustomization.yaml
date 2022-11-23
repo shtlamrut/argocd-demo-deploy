@@ -3,9 +3,4 @@ resources:
 
 commonLabels:
   env: prod
-images:
-- name: hello
-  newName: mynamesandesh/argocd-demo
-  newTag: 52027024bcfe7082dfaa8e133c4cdffe332e9b87
-- name: mynamesandesh/argocd-demo
-  newTag: ea4a178b7b619c54e5eb2ce05f49144c1ba11ea7
+
