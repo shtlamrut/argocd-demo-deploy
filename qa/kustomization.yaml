@@ -8,5 +8,8 @@ patchesStrategicMerge:
 resources:
 - ../base
 images:
+- name: hello
+  newName: mynamesandesh/argocd-demo
+  newTag: d16b429cbba811167292410ea24503d25e4c039f
 - name: mynamesandesh/argocd-demo
   newTag: 904a7dacbe280ee388f38a6c9cadd4a8131c8111
