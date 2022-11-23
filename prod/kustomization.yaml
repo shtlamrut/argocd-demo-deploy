@@ -6,3 +6,6 @@ patchesStrategicMerge:
 - ./deployment-patch.yaml
 resources:
 - ../base
+images:
+- name: mynamesandesh/argocd-demo
+  newTag: 904a7dacbe280ee388f38a6c9cadd4a8131c8111
