@@ -6,5 +6,5 @@ resources:
 
 images:
 - name: my-app
-  newName: docker.io/mynamesandesh/argocd-demo
+  newName: mynamesandesh/argocd-demo
   newTag: da65924910a317092fb970cc8138054775c884cb
