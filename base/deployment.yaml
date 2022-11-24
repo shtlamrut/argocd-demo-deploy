@@ -15,7 +15,7 @@ spec:
         app: demo
     spec:
       containers:
-      - image: mynamesandesh/argocd-demo:ea4a178b7b619c54e5eb2ce05f49144c1ba11ea7
-        name: demo
+      - image: my-app
+        name: my-app
         ports:
         - containerPort: 8080
