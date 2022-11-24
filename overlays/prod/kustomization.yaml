@@ -7,3 +7,4 @@ resources:
 images:
 - name: my-app
   newName: gcr.io/my-platform/my-app
+  newTag: 819da29142ab281842a7f1a58dadd2aac4063fae
