@@ -7,4 +7,4 @@ resources:
 images:
 - name: my-app
   newName: mynamesandesh/argocd-demo
-  newTag: 8c9a59905ff8ec4ff6296bfce39182578b75f37a
+  newTag: dd6a0d9e83698a81e57d0059cf4948453fd58f84
